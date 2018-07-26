@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    		<script>
+          (function() {
+            var base = window.location.href;
+            var online = new RegExp('nebula');
+            if(online.test(base)){
+                document.write('<base href="/game/">');
+            }else{
+                document.write('<base href="/">');
+            }
+          })();
+        </script>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+            <link rel="icon" href="https://nebula.737.com/home/img/favicon.ico" type="image/x-icon">
+            <title>问卷系统-星云</title>
+    </head>
+    <body>
+        <ms-web></ms-web>
+    </body>
+</html>
